@@ -2,7 +2,11 @@
 Ubuntu 19.10 & Windows 1909 & macOS 10.15.2
 python 3.7.5
 
-666
+## 快速入门
+标号|标题|日期
+---|:--:|---:
+001|[通过git打通Ubuntu & Windows & macOS 学习环境](https://web)|2019年12月26日
+
 
 2019年12月26日
 Ubuntu19.10切换python3和python2
