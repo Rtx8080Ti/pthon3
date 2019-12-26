@@ -2,7 +2,7 @@
 Ubuntu 19.10 & Windows 1909 & macOS 10.15.2
 python 3.7.5
 
-
+666
 
 2019年12月26日
 Ubuntu19.10切换python3和python2
