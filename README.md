@@ -1,5 +1,6 @@
 # pthon3
 Ubuntu 19.10 & Windows 1909 & macOS 10.15.2
+
 python 3.7.5
 
 ## 快速入门
