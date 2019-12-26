@@ -104,9 +104,8 @@ git push origin master
 
 所以，这将“Mytest”文件夹（我的本地仓库）中的所有内容添加到GitHub。针对后续项目或如果要创建仓库，你可以直接从第3步开始。最后，如果你登录到GitHub帐户，点击你的Mytest仓库，就会发现 README 已被上传。
 
+备注:将远程主机仓库（GitHub）的内容下载更新到本地仓库：
 
-
-
-
+git pull origin master
 
 
