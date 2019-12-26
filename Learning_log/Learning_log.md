@@ -2,8 +2,7 @@
 Ubuntu 19.10 & Windows 1909 & macOS 10.15.2
 python 3.7.5
 
-问题1：Ubuntu终端不识别 python 命令，提醒可以安装，提醒已安装python3，但是需要执行 python3 命令。
-
+## 问题1：Ubuntu终端不识别 python 命令，提醒可以安装，提醒已安装python3，但是需要执行 python3 命令。
 平台：Ubuntu 19.10 
 
 解决办法：
