@@ -86,13 +86,13 @@ git commit -m "some_message"
 
 7.在GitHub上创建仓库
 
-在GitHub上创建仓库。请注意：仓库名称应该与本地系统上的仓库名称一样。这里，它将是“Mytest”。为此，登录到你在https://github.com上的帐户。然后点击页面右上角的“+”符号，选择“create new repository”。填写细节，如下图所示，点击“create repository”按钮。
+在GitHub上创建仓库。请注意：仓库名称应该与本地系统上的仓库名称一样。这里，它将是“Mytest”。为此，登录到你在 github.com 上的帐户。然后点击页面右上角的“+”符号，选择“create new repository”。填写细节，如下图所示，点击“create repository”按钮。
 
 一旦创建完毕，我们可以将本地仓库的内容推送到你个人简档（profile）中的GitHub仓库。使用该命令，连接到GitHub上的仓库：
 
 重要告知：在运行该命令之前，确保把路径中的“user_name”和“Mytest”换成了你的Github用户名和文件夹！
 
-git remote add origin https://github.com/user name/Mytest.git
+git remote add origin https://github.com/user.name/Mytest.git
 
 8.将本地仓库中的文件推送到GitHub仓库
 
