@@ -72,7 +72,7 @@ This is a git repo
 
 使用下列命令，添加到索引中：
 
-git add README
+git add README.md
 
 注意：“git add”命令可用于将任何数量的文件和文件夹添加到索引中。本文中出现的索引是指类似缓冲器的空间，用来存放要添加到Git仓库中的文件/文件夹。
 
