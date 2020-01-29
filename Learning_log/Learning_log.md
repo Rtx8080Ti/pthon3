@@ -94,7 +94,7 @@ git commit -m "some_message"
 
 重要告知：在运行该命令之前，确保把路径中的“user_name”和“Mytest”换成了你的Github用户名和文件夹！
 
-git remote add origin https://github.com/user.name/Mytest.git
+git remote add origin https://github.com/user_name/Mytest.git
 
 8.将本地仓库中的文件推送到GitHub仓库
 
