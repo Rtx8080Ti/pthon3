@@ -22,9 +22,8 @@
 
 &emsp;   3.加载顺序的差别，link链接的样式表是跟页面同时进行加载，@import链接的样式表是要等到页面加载完以后再加载，会导致页面当打开时没有样式   
 
-&emsp;    4.使用dom控制样式时的差别：当使用javascript控制dom去改变样式的时候，只能使用link标签，因为@import不是dom可以控制的.  
-
-答案解析: 差别1：老祖宗的差别：link属于HTML标签，而@import完全是CSS提供的一种方式。 link标签除了可以加载CSS外，还可以做很多其它的事情，定义rel连接属性等，@import就只能加载CSS。 差别2：加载顺序的差别：当一个页面被加载的时候，link引用的CSS会同时被加载，而@import引用的CSS 会等到页面全部被下载完再被加载。所以有时候浏览@import加载CSS的页面时开始会没有样式。 差别3：兼容性的差别。：@import是CSS2.1提出的，所以老的浏览器不支持，@import只在IE5以上的才能识识别。 差别4：使用dom控制样式时的差别：当使用javascript控制dom去改变样式的时候，只能使用link标签，因为@import不是dom可以控制的.  
+&emsp;    4.使用dom控制样式时的差别：当使用javascript控制dom去改变样式的时候，只能使用link标签，因为@import不是dom可以控制的.    
+&emsp; 答案解析: 差别1：老祖宗的差别：link属于HTML标签，而@import完全是CSS提供的一种方式。 link标签除了可以加载CSS外，还可以做很多其它的事情，定义rel连接属性等，@import就只能加载CSS。 差别2：加载顺序的差别：当一个页面被加载的时候，link引用的CSS会同时被加载，而@import引用的CSS 会等到页面全部被下载完再被加载。所以有时候浏览@import加载CSS的页面时开始会没有样式。 差别3：兼容性的差别。：@import是CSS2.1提出的，所以老的浏览器不支持，@import只在IE5以上的才能识识别。 差别4：使用dom控制样式时的差别：当使用javascript控制dom去改变样式的时候，只能使用link标签，因为@import不是dom可以控制的.  
   
 1.clear的属性值分别是left、right、none、both。  
 
@@ -48,12 +47,11 @@
 
 11.根据下面描述。请写出div在浏览器中的显示的样式 Html结构： <head> <link rel=”stylesheet” type=”text/css”href=”style.css”> <style> div{ width:100px;height:100px;border:1px solid red;text-align:right } </style> </head> style.css中的样式为： div{width:300px;background:orange;text-align:center;}  
 
-&emsp;正确答案: width:100px;height:100px;border:1px solid red;text-align:right;background:orange;
-答案解析: 1、内部样式表和外部样式表的优先级和书写的顺序有关，后书写的样式表的优先级高； 2、当同一个元素通过不同的样式表或选择器添加样式时，当属性发生冲突时，会优先执行权重高的，或样式表优先级高的执行，当不发生冲突时，都会生效。  
+&emsp;正确答案: width:100px;height:100px;border:1px solid red;text-align:right;background:orange;  
+&emsp;答案解析: 1、内部样式表和外部样式表的优先级和书写的顺序有关，后书写的样式表的优先级高； 2、当同一个元素通过不同的样式表或选择器添加样式时，当属性发生冲突时，会优先执行权重高的，或样式表优先级高的执行，当不发生冲突时，都会生效。  
 
 12.根据以下代码，写出最终执行结果 <div id=”box” class=”con”></div> #box{width:100px;height:20px;background:orange;} .con{border:10px solid red;float:left} div{width:400px;background:blue;}    
 
-&emsp;正确答案: width:100px;height:20px;background:orange;border:10px solid red;float:left;
-
-答案解析: 当样式发生冲突时会选择权重高的执行，id选择器的权重是0100，class选择器的权重为0010，元素选择器的权重为0001.  
+&emsp;正确答案: width:100px;height:20px;background:orange;border:10px solid red;float:left;  
+&emsp;答案解析: 当样式发生冲突时会选择权重高的执行，id选择器的权重是0100，class选择器的权重为0010，元素选择器的权重为0001.  
 
