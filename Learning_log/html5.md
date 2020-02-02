@@ -49,4 +49,11 @@
 11.根据下面描述。请写出div在浏览器中的显示的样式 Html结构： <head> <link rel=”stylesheet” type=”text/css”href=”style.css”> <style> div{ width:100px;height:100px;border:1px solid red;text-align:right } </style> </head> style.css中的样式为： div{width:300px;background:orange;text-align:center;}  
 
 &emsp;正确答案: width:100px;height:100px;border:1px solid red;text-align:right;background:orange;
-答案解析: 1、内部样式表和外部样式表的优先级和书写的顺序有关，后书写的样式表的优先级高； 2、当同一个元素通过不同的样式表或选择器添加样式时，当属性发生冲突时，会优先执行权重高的，或样式表优先级高的执行，当不发生冲突时，都会生效。
+答案解析: 1、内部样式表和外部样式表的优先级和书写的顺序有关，后书写的样式表的优先级高； 2、当同一个元素通过不同的样式表或选择器添加样式时，当属性发生冲突时，会优先执行权重高的，或样式表优先级高的执行，当不发生冲突时，都会生效。  
+
+12.根据以下代码，写出最终执行结果 <div id=”box” class=”con”></div> #box{width:100px;height:20px;background:orange;} .con{border:10px solid red;float:left} div{width:400px;background:blue;}    
+
+&emsp;正确答案: width:100px;height:20px;background:orange;border:10px solid red;float:left;
+
+答案解析: 当样式发生冲突时会选择权重高的执行，id选择器的权重是0100，class选择器的权重为0010，元素选择器的权重为0001.  
+
